@@ -10,6 +10,7 @@
 */
 
 //CODE HERE
+const gitDefinition = "A software that tracks changes in files. Its use enables collaboration."
 
 //////////////////PROBLEM 2////////////////////
 /*
@@ -18,6 +19,7 @@
 */
 
 //CODE HERE
+const gitHubDefinition = "A cloud service and website that can store git projects. Its use also enables collaboration."
 
 //////////////////PROBLEM 3////////////////////
 /*
@@ -26,6 +28,7 @@
 */
 
 //CODE HERE
+const gitInitDefinition = "A command on local machine to turn a folder (directory) into a repository."
 
 //////////////////PROBLEM 4////////////////////
 /*
@@ -34,6 +37,7 @@
 */
 
 //CODE HERE
+const gitCloneDefinition = "A command that copies an existing Git repository."
 
 //////////////////PROBLEM 5////////////////////
 /*
@@ -42,6 +46,7 @@
 */
 
 //CODE HERE
+const gitStatusDefinition = "A command used on terminal when inside a git repository, it will show if things are staged or if any changes have been made."
 
 //////////////////PROBLEM 6////////////////////
 /*
@@ -53,6 +58,8 @@
 */
 
 //CODE HERE
+const gitAddDefinition = "A command that adds a change in the working directory to the staging area, this stages files for commit."
+const gitAddCode = "git add ."
 
 //////////////////PROBLEM 7////////////////////
 /*
@@ -64,7 +71,8 @@
 */
 
 //CODE HERE
-
+const gitCommitDefinition = "A command that essentially creates a snapshot of changes I've added to a file."
+const gitCommitCode = "git commit -m "intial commit""
 
 //////////////////PROBLEM 8////////////////////
 /*
@@ -73,3 +81,4 @@
 */
 
 //CODE HERE
+const gitPushDefinition = "A command that takes the changes on a local repository and updates the remote repository."
