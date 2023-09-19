@@ -1,7 +1,6 @@
 ///////////////////
 // Apple Orchard //
 ///////////////////
-
 /*
     The data below has been collected over the 
     last week at an apple orchard. You will be 
@@ -131,11 +130,10 @@ let days = 0
 // CODE HERE
 while (acresLeft > 0) {
     days += 1
-    acresLeft - averageDailyAcres
+    acresLeft = acresLeft - averageDailyAcres
 }
 
 console.log(days)
-
 
 // PROBLEM 4
 
@@ -210,21 +208,24 @@ let pinkPounds = 0
 for (let i = 0; i < fujiTons.length; i ++) {
     let sum = 0
     sum += fujiTons[i]
+    fujiPounds = sum * 2000
 }
-fujiPounds = sum * 2000
+
 
 
 for (let i = 0; i < galaTons.length; i ++) {
     let sum = 0
     sum += galaTons[i]
+    galaPounds = sum * 2000
 }
-galaPounds = sum * 2000
+
 
 for (let i = 0; i < pinkTons.length; i ++) {
     let sum = 0
     sum += pinkTons[i]
+    pinkPounds = sum * 2000
 }
-pinkPounds = sum * 2000
+
 
 
 
